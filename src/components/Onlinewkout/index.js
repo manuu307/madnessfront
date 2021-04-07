@@ -12,9 +12,9 @@ const OnlineWkout = () => {
             </PhotoContainer>
             <ContentContainer>
                 <Title>Entrenamiento Online</Title>
-                <SubTitle>100% femenino y con seguimiento</SubTitle>
-                <Text>De la mano con las mejores profesionales del ambiente del fitness.</Text>
-                <Button to='/onlineservice'> Comenzar </Button>
+                <SubTitle>100% femenino</SubTitle>
+                <Text>Con la guía y el seguimiento de las mejores profesionales en el ambiente del fitness.</Text>
+                <Button to='/onlineservice' exact strict> Comenzar </Button>
                 
             </ContentContainer>        
         </MainContainer>    

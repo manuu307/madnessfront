@@ -9,6 +9,7 @@ export const BannerContainer = styled.div`
     height:600px;
     position:relative;
     z-index:1;
+    
 `
 
 export const BannerBg = styled.div`

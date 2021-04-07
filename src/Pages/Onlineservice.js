@@ -1,11 +1,11 @@
-import React from 'react'
-import Navbar from '../components/Navbar/index'
+import React, {useState} from 'react'
+import {Navbar, Sidebar} from '../components/index'
 import OnlineService from '../components/Onlineservice/index'
 
 const OnlineServicePage = () => {
+
     return (
         <>
-        <Navbar />
         <OnlineService />
         </>
     )

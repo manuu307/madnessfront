@@ -25,14 +25,14 @@ const Navbar = ({toggle}) => {
                             <NavLinks to='/' spy={true} smooth={true} >Inicio</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to='about' spy={true} smooth={true}>About</NavLinks>
+                            <NavLinks to='about' spy={true} smooth={true}>¿Que es Madness?</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to='wkout' spy={true} smooth={true} duration={500} offset={-70} activeClass="active">Gym's</NavLinks>
+                            <NavLinks to='wkout' spy={true} smooth={true} duration={500} offset={-70} activeClass="active">Gimnasios</NavLinks>
                         </NavItem>        
                     </NavMenu>
                     <NavBtn>
-                        <NavBtnLink to='/signin'>Sign in</NavBtnLink>
+                        <NavBtnLink to='/signin'>Ingresar</NavBtnLink>
                     </NavBtn>
                 </NavbarContainer>
             </Nav>
